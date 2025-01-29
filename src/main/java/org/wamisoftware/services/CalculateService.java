@@ -1,10 +1,10 @@
 package org.wamisoftware.services;
 
+import org.springframework.stereotype.Service;
 import org.wamisoftware.controllers.dto.ShapeRequest;
 import org.wamisoftware.controllers.dto.ShapeResponse;
 import org.wamisoftware.services.shapes.Calculator;
 import org.wamisoftware.services.shapes.ShapeType;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Map;

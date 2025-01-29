@@ -5,7 +5,8 @@ import org.wamisoftware.controllers.dto.ShapeRequest;
 import org.wamisoftware.exceptions.ValidationException;
 import org.wamisoftware.services.shapes.ShapeType;
 
-import static org.assertj.core.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
 class SquareTest {
 

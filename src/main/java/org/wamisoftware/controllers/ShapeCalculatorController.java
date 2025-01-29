@@ -1,12 +1,12 @@
 package org.wamisoftware.controllers;
 
-import org.wamisoftware.controllers.dto.ShapeRequest;
-import org.wamisoftware.controllers.dto.ShapeResponse;
-import org.wamisoftware.services.CalculateService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.wamisoftware.controllers.dto.ShapeRequest;
+import org.wamisoftware.controllers.dto.ShapeResponse;
+import org.wamisoftware.services.CalculateService;
 
 @RestController
 @RequestMapping("/shape")

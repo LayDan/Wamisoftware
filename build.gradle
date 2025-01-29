@@ -6,12 +6,20 @@ plugins {
     id "io.freefair.lombok" version "6.6.3"
 }
 
+mainClassName = 'org.wamisoftware.Main'
 group = 'org.wamisoftware'
 version = '1.0-SNAPSHOT'
 
 java {
     sourceCompatibility = 8
     targetCompatibility = 8
+}
+
+bootJar {
+    archiveFileName = "wamisoftware-api.jar"
+}
+jar {
+    enabled = false
 }
 
 
